@@ -72,7 +72,7 @@ footer {
 }
 
 .encabezado {
-  background-image: url('img/fondo.jpg'); /* Ruta relativa a tu CSS */
+  background-image: url('img/fondo.png'); /* Ruta relativa a tu CSS */
   background-size: cover; /* Que cubra todo el header */
   background-position: center;
   background-repeat: no-repeat;
