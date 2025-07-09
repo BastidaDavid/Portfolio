@@ -72,18 +72,23 @@ footer {
 }
 
 .encabezado {
-  background-image: url('img/fondo.png'); /* Ruta relativa a tu CSS */
-  background-size: cover; /* Que cubra todo el header */
+  background-image: url('img/fondo.png');
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 50px 10px; /* Ajusta el padding si quieres más espacio */
-  color: white; /* Para que el texto sea visible */
-  position: relative; /* Para posicionar elementos si quieres */
+  padding: 20px;
+  color: white;
+  height: 300px; /* Ajusta según lo que necesites */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centra el contenido verticalmente */
+  text-align: center;
 }
 
 /* Opcional: para que la imagen de perfil tenga borde blanco y se destaque */
 .encabezado .avatar {
-  border: 3px solid white;
+  border: 3px solid rgb(69, 202, 250);
   border-radius: 50%;
   width: 150px;
   height: 150px;
