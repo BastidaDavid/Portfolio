@@ -76,7 +76,7 @@ footer {
   background-size: cover; /* Que cubra todo el header */
   background-position: center;
   background-repeat: no-repeat;
-  padding: 50px 20px; /* Ajusta el padding si quieres más espacio */
+  padding: 50px 10px; /* Ajusta el padding si quieres más espacio */
   color: white; /* Para que el texto sea visible */
   position: relative; /* Para posicionar elementos si quieres */
 }
