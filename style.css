@@ -62,29 +62,6 @@ footer {
     color: #888888;
 }
 
-.avatar {
-    width: 120px; /* Puedes bajar o subir este valor */
-    height: 120px;
-    border-radius: 50%;
-    border: 3px solid #00bcd4;
-    object-fit: cover;
-    margin-bottom: 1rem;
-}
-
-.encabezado {
-  background-image: url('img/fondo.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 250px; /* Altura fija del header */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; /* Centra todo verticalmente */
-  text-align: center;
-  color: white;
-  padding: 10px;
-}
 
 .encabezado {
   background-image: url('img/fondo.png');
