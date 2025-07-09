@@ -76,21 +76,20 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 20px;
-  color: white;
-  height: 300px; /* Ajusta según lo que necesites */
+  height: 250px; /* Altura fija del header */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Centra el contenido verticalmente */
+  justify-content: center; /* Centra todo verticalmente */
   text-align: center;
+  color: white;
+  padding: 10px;
 }
 
-/* Opcional: para que la imagen de perfil tenga borde blanco y se destaque */
 .encabezado .avatar {
-  border: 3px solid rgb(69, 202, 250);
+  width: 100px; /* Tamaño más pequeño para que encaje */
+  height: 100px;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  border: 3px solid white;
   object-fit: cover;
 }
