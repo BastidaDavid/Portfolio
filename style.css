@@ -70,3 +70,12 @@ footer {
     object-fit: cover;
     margin-bottom: 1rem;
 }
+
+.encabezado {
+  background-image: url('fondo.jpg');
+  background-size: cover; /* Ajusta para que cubra todo el header */
+  background-position: center; /* Centra la imagen */
+  padding: 50px; /* Espaciado interno */
+  text-align: center;
+  color: white; /* Cambia el color del texto si lo necesitas */
+}
