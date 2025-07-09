@@ -1,0 +1,23 @@
+# Ignorar archivos de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Iconos de carpetas en macOS
+Icon
+
+# Archivos temporales de Thumbnails
+._*
+
+# Archivos temporales de Spotlight
+.Spotlight-V100
+
+# Archivos temporales de Time Machine
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.fseventsd
+
+# Archivos de GitHub Pages que no quieres subir (opcional)
+node_modules/
+dist/
