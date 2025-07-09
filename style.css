@@ -63,7 +63,7 @@ footer {
 }
 
 .avatar {
-    width: 120px;
+    width: 120px; /* Puedes bajar o subir este valor */
     height: 120px;
     border-radius: 50%;
     border: 3px solid #00bcd4;
