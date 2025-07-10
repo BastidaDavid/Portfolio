@@ -77,3 +77,19 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+.encabezado {
+  position: relative;
+  background-image: url('img/fondo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centrado vertical */
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
