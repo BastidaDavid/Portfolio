@@ -156,3 +156,37 @@ footer {
   color: #555;
   font-size: 1rem;
 }
+
+.acerca-de-mi, .redes-sociales {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  color: #e0e0e0;
+}
+
+.acerca-de-mi h2, .redes-sociales h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.redes-sociales ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+}
+
+.redes-sociales ul li a {
+  color: #4fc3f7;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.redes-sociales ul li a:hover {
+  color: #82b1ff;
+}
