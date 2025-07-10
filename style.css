@@ -110,3 +110,27 @@ footer {
   background-color: white;
   color: black;
 }
+
+.certificados {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.certificados-lista {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.certificado img {
+    width: 150px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certificado p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
