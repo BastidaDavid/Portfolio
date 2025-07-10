@@ -1,14 +1,39 @@
-/* Solo estilos específicos de la sección 3D */
-
 .catalogo-3d {
-    background-color: #1f1f1f; /* Mismo fondo oscuro */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+
+.proyecto {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 220px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .proyecto h3 {
-    color: #ffcc00; /* Un color distinto solo para los títulos de proyectos 3D */
+    margin: 0.8rem 0 0.4rem;
+    color: #ffcc00; /* Color especial para esta sección */
+    font-size: 1.1rem;
+}
+
+.proyecto p {
+    padding: 0 1rem 1rem;
+    color: #ccc;
+    font-size: 0.85rem;
 }
 
 .proyecto:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 15px rgba(255, 204, 0, 0.5);
+    transform: translateY(-8px);
 }
