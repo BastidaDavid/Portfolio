@@ -1,3 +1,9 @@
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
 .portfolio {
     max-width: 1200px;
     margin: 0 auto;
@@ -8,6 +14,7 @@
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    color: #ffffff;
 }
 
 .catalogo-3d {
@@ -17,13 +24,18 @@
 }
 
 .proyecto {
-    background-color: #f9f9f9;
+    background-color: #1e1e1e;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     padding: 1rem;
-    
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proyecto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
 }
 
 .proyecto img {
@@ -31,18 +43,24 @@
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+    border: 2px solid #fff;
+    transition: transform 0.4s ease, filter 0.3s ease;
 }
 
+.proyecto img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
 
 .proyecto h3 {
     margin: 1rem 0 0.5rem 0;
     font-size: 1.2rem;
-    color: #222;
+    color: #ffffff;
 }
 
 .proyecto p {
     margin: 0;
-    color: #555;
+    color: #cccccc;
     font-size: 0.95rem;
 }
 
