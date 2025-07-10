@@ -1,0 +1,14 @@
+/* Solo estilos específicos de la sección 3D */
+
+.catalogo-3d {
+    background-color: #1f1f1f; /* Mismo fondo oscuro */
+}
+
+.proyecto h3 {
+    color: #ffcc00; /* Un color distinto solo para los títulos de proyectos 3D */
+}
+
+.proyecto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(255, 204, 0, 0.5);
+}
