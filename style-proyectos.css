@@ -12,13 +12,14 @@ h1 {
 }
 
 .imagen-proyecto {
-    max-width: 600px;
-    width: 100%;
-    height: auto;
+    max-width: 600px; /* Tamaño máximo recomendado */
+    width: 100%;      /* Para que se adapte a pantallas pequeñas */
+    height: auto;     /* Mantiene proporción */
     display: block;
     margin: 2rem auto;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+
 }
 
 footer a {
