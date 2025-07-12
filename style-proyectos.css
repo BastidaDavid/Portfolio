@@ -37,11 +37,13 @@ footer a:hover {
     background-color: #ffa733;
 }
 
-.video-proyecto {
-    max-width: 800px;
+.video-youtube {
     width: 100%;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
     display: block;
     margin: 2rem auto;
+    border: none;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
