@@ -6,78 +6,73 @@ body {
     color: #e0e0e0;
 }
 
-/* HEADER ELEGANTE */
 .encabezado {
-    display: flex;
-    align-items: center;
-
-    gap: 2rem;
-    flex-wrap: wrap;
-    padding: 40px 20px;
-    background-image: url('img/fondo.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-bottom: 2px solid #333;
-    color: white;
-
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 40px 20px;
+  background-image: url('img/fondo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #333;
+  color: white;
+  text-align: left;
+  flex-wrap: wrap;
 }
 
 .avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 3px solid white;
-    object-fit: cover;
-    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(255,255,255,0.2);
 }
 
 .info {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 0.5rem;
-    min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 600px;
+  flex: 1;
 }
 
 .encabezado h1 {
-    font-size: 2.5rem;
-    margin: 0;
-    color: #ffffff;
+  font-size: 2.5rem;
+  margin: 0;
+  color: #ffffff;
 }
 
-
 .encabezado p {
-    font-size: 1rem;
-    color: #aaaaaa;
-    margin: 0;
+  font-size: 1rem;
+  color: #aaaaaa;
+  margin: 0.5rem 0 1rem 0;
 }
 
 .botones-header {
-
-    display: flex;
-    
-    gap: 1rem;
-    flex-wrap: wrap;
-    margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 .boton {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: white;
-    border: 2px solid white;
-    border-radius: 30px;
-    text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    font-weight: 600;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 600;
 }
 
 .boton:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 /* PORTFOLIO GENERAL */
