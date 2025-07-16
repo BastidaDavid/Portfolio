@@ -1,3 +1,4 @@
+/* GENERAL */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -5,29 +6,33 @@ body {
     color: #e0e0e0;
 }
 
-/* HEADER actualizado */
+/* HEADER ELEGANTE */
 .encabezado {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 40px 20px;
     background-image: url('img/fondo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 40px 20px;
-    text-align: center;
+    border-bottom: 2px solid #333;
     color: white;
+    text-align: center;
 }
 
 .avatar {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     border: 3px solid white;
     object-fit: cover;
-    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
 }
 
 .info {
-    display: inline-block;
     max-width: 600px;
 }
 
@@ -39,7 +44,7 @@ body {
 
 .encabezado p {
     font-size: 1rem;
-    color: #aaaaaa;
+    color: #cccccc;
     margin: 0.5rem 0;
 }
 
@@ -68,7 +73,7 @@ body {
     color: black;
 }
 
-/* PORTFOLIO */
+/* PORTFOLIO GENERAL */
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -76,32 +81,43 @@ body {
     padding: 2rem;
 }
 
-.project {
+.project, .proyecto {
     border: 1px solid #333;
     border-radius: 10px;
     overflow: hidden;
     background-color: #1f1f1f;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+    text-align: center;
 }
 
-.project img {
+.project img, .proyecto img {
     width: 100%;
-    display: block;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 2px solid #333;
 }
 
-.project h3 {
-    margin: 1rem;
+.project h3, .proyecto h3 {
+    margin: 1rem 0 0.5rem 0;
     font-size: 1.2rem;
     color: #e0e0e0;
 }
 
-.project a {
-    text-decoration: none;
-    color: inherit;
+.project p, .proyecto p {
+    color: #cccccc;
+    font-size: 0.95rem;
+    margin: 0 1rem 1rem 1rem;
 }
 
-.project:hover {
+.project a, .proyecto a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.project:hover, .proyecto:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 188, 212, 0.3);
 }
@@ -122,6 +138,8 @@ body {
 .certificados-lista {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .certificado {
@@ -134,7 +152,6 @@ body {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
 }
 
 .certificado img:hover {
@@ -148,7 +165,7 @@ body {
     font-size: 1rem;
 }
 
-/* ABOUT Y REDES */
+/* ABOUT + REDES */
 .acerca-de-mi, .redes-sociales {
     max-width: 900px;
     margin: 3rem auto;
@@ -191,27 +208,40 @@ footer {
     color: #888888;
 }
 
+/* ABOUT HEADER (sección adicional, opcional) */
 .about-header {
-  background-color: #1e1e1e;
-  padding: 3rem 1.5rem;
-  text-align: center;
-  border-bottom: 2px solid #333;
+    background-color: #1e1e1e;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #333;
 }
 
 .container-about {
-  max-width: 900px;
-  margin: 0 auto;
-  color: #e0e0e0;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #e0e0e0;
 }
 
 .about-header h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #4fc3f7;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #4fc3f7;
 }
 
 .about-header p {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  color: #cccccc;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #cccccc;
+}
+
+/* RESPONSIVE HEADER */
+@media (max-width: 600px) {
+    .encabezado {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .botones-header {
+        flex-direction: column;
+    }
 }
