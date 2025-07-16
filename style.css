@@ -190,3 +190,28 @@ footer {
     font-size: 0.9rem;
     color: #888888;
 }
+
+.about-header {
+  background-color: #1e1e1e;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+
+.container-about {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #e0e0e0;
+}
+
+.about-header h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4fc3f7;
+}
+
+.about-header p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #cccccc;
+}
