@@ -20,7 +20,7 @@ body {
     background-repeat: no-repeat;
     border-bottom: 2px solid #333;
     color: white;
-    text-align: center;
+    text-align: left; /* para alinear el texto internamente */
 }
 
 .avatar {
@@ -33,6 +33,10 @@ body {
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* alineación izquierda */
     max-width: 600px;
 }
 
@@ -44,14 +48,14 @@ body {
 
 .encabezado p {
     font-size: 1rem;
-    color: #cccccc;
+    color: #aaaaaa;
     margin: 0.5rem 0;
 }
 
 .botones-header {
     margin-top: 1rem;
     display: flex;
-    justify-content: center;
+    
     gap: 1rem;
     flex-wrap: wrap;
 }
