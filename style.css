@@ -10,7 +10,7 @@ body {
 .encabezado {
     display: flex;
     align-items: center;
-    justify-content: center;
+
     gap: 2rem;
     flex-wrap: wrap;
     padding: 40px 20px;
@@ -20,7 +20,7 @@ body {
     background-repeat: no-repeat;
     border-bottom: 2px solid #333;
     color: white;
-    text-align: left; /* para alinear el texto internamente */
+
 }
 
 .avatar {
@@ -33,11 +33,12 @@ body {
 }
 
 .info {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start; /* alineación izquierda */
-    max-width: 600px;
+    gap: 0.5rem;
+    min-width: 250px;
 }
 
 .encabezado h1 {
@@ -46,18 +47,20 @@ body {
     color: #ffffff;
 }
 
+
 .encabezado p {
     font-size: 1rem;
     color: #aaaaaa;
-    margin: 0.5rem 0;
+    margin: 0;
 }
 
 .botones-header {
-    margin-top: 1rem;
+
     display: flex;
     
     gap: 1rem;
     flex-wrap: wrap;
+    margin-top: 0.5rem;
 }
 
 .boton {
