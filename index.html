@@ -108,5 +108,23 @@
   <p>Follow me on <a href="https://www.behance.net/ramrebastida1" target="_blank" rel="noopener noreferrer">Behance</a> | <a href="https://github.com/bastidadavid" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://www.linkedin.com/in/davidbastida" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
 </footer>
 
+<script>
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.about-slider .slide');
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active', i === index);
+    });
+  }
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  setInterval(nextSlide, 3000); // Cambia cada 3 segundos
+</script>
+
 </body>
 </html>
