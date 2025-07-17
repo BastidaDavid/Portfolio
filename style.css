@@ -416,6 +416,48 @@ footer {
   }
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
 
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu ul {
+    display: none;
+    flex-direction: column;
+    background-color: #111;
+    position: absolute;
+    top: 70px; /* Ajusta según tu header */
+    right: 0;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 0 0 0 10px;
+  }
+
+  .nav-menu ul.active {
+    display: flex;
+  }
+
+  .nav-menu ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .submenu:hover .dropdown {
+    position: relative;
+    top: 0;
+  }
+}
 
 

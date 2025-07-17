@@ -22,6 +22,7 @@
   <!-- MENÚ MOVIDO ABAJO -->
   
 </header>
+<button class="menu-toggle" aria-label="Toggle Menu">☰</button>
 <nav class="nav-menu">
   <ul>
     <li><a href="index.html">Home</a></li>
@@ -107,6 +108,16 @@
   <p>© 2025 David Bastida — Todos los derechos reservados</p>
   <p>Follow me on <a href="https://www.behance.net/ramrebastida1" target="_blank" rel="noopener noreferrer">Behance</a> | <a href="https://github.com/bastidadavid" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://www.linkedin.com/in/davidbastida" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
 </footer>
+
+<script>
+  // Menú responsive
+  const toggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.nav-menu ul');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
+</script>
 
 <script>
   let currentSlide = 0;
