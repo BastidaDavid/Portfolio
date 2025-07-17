@@ -307,6 +307,13 @@ footer {
 
 
 /* NAV MENU */
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  background-color: #000; /* Fondo para que se vean bien las letras */
+  padding: 0.5rem 0;
+}
+
 .nav-menu ul {
   list-style: none;
   padding: 0;
@@ -333,7 +340,7 @@ footer {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #111; /* Puedes cambiar este color */
+  background-color: #111;
   padding: 0;
   margin: 0;
   border-radius: 5px;
