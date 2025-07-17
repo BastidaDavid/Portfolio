@@ -460,4 +460,23 @@ footer {
   }
 }
 
+.iconos-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  list-style: none;
+}
+
+.iconos-sociales a {
+  font-size: 2rem;
+  color: #fff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.iconos-sociales a:hover {
+  transform: scale(1.2);
+  color: #00ffae; /* o cualquier color que combine con tu estilo */
+}
+
 
