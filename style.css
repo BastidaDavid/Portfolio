@@ -309,7 +309,7 @@ footer {
 /* NAV MENU */
 .nav-menu {
   width: 100%;
-  background-color: rgba(20, 20, 20, 0.8); /* más visible */
+  background-color: rgba(20, 20, 20, 0.8);
   border-top: 1px solid #333;
   border-bottom: 1px solid #333;
   padding: 0.5rem 0;
